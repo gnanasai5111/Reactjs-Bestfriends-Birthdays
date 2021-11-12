@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Reactjs-bestfriends-birthdays/static/js/main.253ea9e2.chunk.js",
+    "main.js.map": "/Reactjs-bestfriends-birthdays/static/js/main.253ea9e2.chunk.js.map",
+    "runtime-main.js": "/Reactjs-bestfriends-birthdays/static/js/runtime-main.9f09e946.js",
+    "runtime-main.js.map": "/Reactjs-bestfriends-birthdays/static/js/runtime-main.9f09e946.js.map",
+    "static/js/2.d821fce0.chunk.js": "/Reactjs-bestfriends-birthdays/static/js/2.d821fce0.chunk.js",
+    "static/js/2.d821fce0.chunk.js.map": "/Reactjs-bestfriends-birthdays/static/js/2.d821fce0.chunk.js.map",
+    "index.html": "/Reactjs-bestfriends-birthdays/index.html",
+    "static/js/2.d821fce0.chunk.js.LICENSE.txt": "/Reactjs-bestfriends-birthdays/static/js/2.d821fce0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f09e946.js",
+    "static/js/2.d821fce0.chunk.js",
+    "static/js/main.253ea9e2.chunk.js"
+  ]
+}
