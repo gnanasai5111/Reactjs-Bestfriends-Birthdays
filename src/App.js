@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Friend from "./components/Friends";
+import friends from "./friend";
 
 function App() {
+  var [friend,clear]=useState(friends);
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h2 style={{margin:"20px 0"}}>Best Friends</h2>
+      <div className="container">
+        {friends.map((friend) => {
+          return (
+            <Friend
+              key={friend.id}
+              name={friend.name}
+              img={friend.img}
+              age={friend.age}
+              birthday={friend.birthday}
+            />
+          );
+        })}
+        <button onClick={()=> clear(friend.splice(0,friend.length))} className="button">Clear All</button>
+      </div>
+      
+    </>
   );
 }
 
